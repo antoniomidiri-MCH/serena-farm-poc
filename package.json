@@ -1,0 +1,20 @@
+{
+  "name": "serena-farm-poc",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Proof of concept: personaggio pilota (cagnolino) animato in Remotion per Serena Farm",
+  "scripts": {
+    "start": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts CagnolinoIdle out/cagnolino-idle.mp4"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.190",
+    "@remotion/cli": "^4.0.190"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "@types/react": "^18.3.3"
+  }
+}
